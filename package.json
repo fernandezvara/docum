@@ -1,0 +1,24 @@
+{
+  "name": "docum",
+  "version": "0.0.1",
+  "description": "Documentation and collaboration service for teams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandezvara/docum.git"
+  },
+  "keywords": [
+    "documentation",
+    "collaboration",
+    "markdown"
+  ],
+  "author": "antoniofernandezvara@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandezvara/docum/issues"
+  },
+  "homepage": "https://github.com/fernandezvara/docum#readme"
+}

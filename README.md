@@ -1,2 +1,3 @@
 # docum
-Documentation and collaboration service por teams
+
+Documentation and collaboration service for teams
