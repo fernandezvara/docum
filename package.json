@@ -4,7 +4,14 @@
   "description": "Documentation and collaboration service for teams",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon ./index.js --exec babel-node",
+    "start": "nodemon ./index.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   },
   "repository": {
     "type": "git",
@@ -20,5 +27,28 @@
   "bugs": {
     "url": "https://github.com/fernandezvara/docum/issues"
   },
-  "homepage": "https://github.com/fernandezvara/docum#readme"
+  "homepage": "https://github.com/fernandezvara/docum#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "apollo-server-koa": "^1.2.0",
+    "config": "^1.28.1",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.8.0",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.3.0",
+    "pg": "^7.4.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.22.15"
+  }
 }
